@@ -19,7 +19,7 @@ namespace SalesWebMVC.Models
         {
 
         }
-        public Seller(int id, string nome, string email, double salario, DateTime dataAniversario, Departament departament)
+        public Seller(int id, string nome, string email,  DateTime dataAniversario, double salario, Departament departament)
         {
             Id = id;
             Name = nome;

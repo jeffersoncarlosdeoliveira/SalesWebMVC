@@ -9,6 +9,6 @@ namespace SalesWebMVC.Models.Enums
     {
         Pending,
         Billed,
-        Cacelled
+        Canceled
     }
 }
