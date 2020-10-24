@@ -9,6 +9,8 @@ namespace SalesWebMVC.Models
     public class Seller
     {
         public int Id { get; set; }
+        [Required(ErrorMessage ="Nome é obrigatório")]
+        [StringLength(60, MinimumLength =3)]
         public string Name { get; set; }
         public string Email { get; set; }
         [Display(Name = "Salário")]
